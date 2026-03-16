@@ -109,17 +109,3 @@ The app loads `models/fraud_model.pkl`, predicts fraud probability, and displays
 - **Fraudulent Transaction** (probability ≥ 0.5)
 - **Genuine Transaction** (probability < 0.5)
 
-## Example Screenshots
-Add screenshots after running the project:
-- `docs/streamlit_home.png`
-- `docs/prediction_result.png`
-
-(Create a `docs/` folder if you’d like to store images.)
-
-## Future Improvements
-- Use a real-world dataset and handle class imbalance more robustly (SMOTE/threshold tuning)
-- Add transaction time-series behavior features per user
-- Model monitoring (data drift, concept drift)
-- Add explainability (SHAP) to show top contributing factors
-- Deploy to cloud (Docker, CI/CD, model registry)
-
